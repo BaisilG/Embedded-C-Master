@@ -28,3 +28,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\UiPath\Microc
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-07-02 12:42:56.033
 !MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-02 12:51:23.843
+!MESSAGE Indexed 'TestProject' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-02 12:51:35.341
+!MESSAGE Indexed 'TestProject' (3 sources, 49 headers) in 0.916 sec: 1,902 declarations; 2,539 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
