@@ -6,3 +6,16 @@
  */
 
 
+#include <stdio.h>
+
+int main(void)
+
+{
+	printf("Praise to Jesus\n");
+
+	printf("press 'Enter' to exit the program \n");
+
+	getchar();
+	return 0;
+
+}
