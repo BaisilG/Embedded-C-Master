@@ -20,11 +20,5 @@ int main()
 // creating a function
 // this is called function defenition
 void function_add_threee_numbers(int a, int b, int c)
-{
-	int sum;
-	sum = a+b+c;
-
-	printf("Sum = %d\n", sum);
-}
 
 // why we are using the void here is fucntion_add_three_numbers is not returning anything.
