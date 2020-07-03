@@ -400,3 +400,6 @@ Reason: (2) ST-LINK DLL error.
 !SUBENTRY 2 com.st.stm32cube.ide.mcu.debug.stlink 4 0 2020-07-03 15:04:17.505
 !MESSAGE Error in initializing ST-LINK device.
 Reason: (2) ST-LINK DLL error.
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2020-07-03 15:36:50.099
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\MGLOCA~1\AppData\Local\Temp\STM32CubeIDE_2e62849317c0_c0a83801ec2f

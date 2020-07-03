@@ -660,3 +660,7 @@
 2020-07-03 12:15:46,039 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
 2020-07-03 12:15:46,475 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\mglocadmin\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
 2020-07-03 12:17:22,804 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.25.0
+2020-07-03 15:03:40,435 [INFO] Activator:176 - 
+
+
+2020-07-03 15:03:40,440 [INFO] Activator:177 - !SESSION log4j initialized
