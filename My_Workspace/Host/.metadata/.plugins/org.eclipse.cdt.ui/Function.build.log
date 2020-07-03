@@ -27,3 +27,6 @@ gcc -o Function.exe function.o
 c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: function.o: in function `main':
 D:\UiPath\Microcontroller Embedded C\Main\My_Workspace\Host\Function\Debug/../function.c:19: undefined reference to `fucntin_add_numbers'
 collect2.exe: error: ld returned 1 exit status
+
+10:55:07 Build Failed. 2 errors, 5 warnings. (took 5s.511ms)
+
