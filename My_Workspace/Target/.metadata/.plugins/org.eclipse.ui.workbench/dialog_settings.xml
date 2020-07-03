@@ -4,20 +4,24 @@
 		<item key="dialogHeight" value="669"/>
 		<item key="dialogWidth" value="829"/>
 		<list key="orderedElements">
+			<item value="com.st.stm32cube.ide.mcu.debug.swv.core.page1"/>
 			<item value="org.eclipse.equinox.p2.ui.sdk.update"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="serial "/>
 			<item value="update"/>
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="-699"/>
-		<item key="DIALOG_Y_ORIGIN" value="-491"/>
+		<item key="DIALOG_X_ORIGIN" value="8"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
 	</section>
 </section>

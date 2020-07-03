@@ -1,10 +1,11 @@
-17:32:26 **** Incremental Build of configuration Debug for project HelloWord ****
+19:50:13 **** Incremental Build of configuration Debug for project HelloWord ****
 make -j4 all 
-arm-none-eabi-size   HelloWord.elf 
-   text	   data	    bss	    dec	    hex	filename
-    676	      8	   1568	   2252	    8cc	HelloWord.elf
-Finished building: default.size.stdout
- 
+arm-none-eabi-gcc -o "HelloWord.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\UiPath\Microcontroller Embedded C\Main\My_Workspace\Target\HelloWord\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HelloWord.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+c:\st\stm32cubeide_1.3.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610\tools\arm-none-eabi\bin\ld.exe: error: HelloWord.elf uses VFP register arguments, Src/main.o does not
+c:\st\stm32cubeide_1.3.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.0.0.201904181610\tools\arm-none-eabi\bin\ld.exe: failed to merge target specific data of file Src/main.o
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:43: HelloWord.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
 
-17:32:27 Build Finished. 0 errors, 0 warnings. (took 524ms)
+19:50:14 Build Failed. 1 errors, 0 warnings. (took 1s.45ms)
 
