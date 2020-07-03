@@ -403,3 +403,12 @@ Reason: (2) ST-LINK DLL error.
 
 !ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2020-07-03 15:36:50.099
 !MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\MGLOCA~1\AppData\Local\Temp\STM32CubeIDE_2e62849317c0_c0a83801ec2f
+!SESSION 2020-07-03 15:37:26.450 -----------------------------------------------
+eclipse.buildId=Version 1.3.1
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-07-03 15:38:16.067
+!MESSAGE Log4j initialized with config file D:\UiPath\Microcontroller Embedded C\Main\My_Workspace\Target\.metadata\.log4j.xml
