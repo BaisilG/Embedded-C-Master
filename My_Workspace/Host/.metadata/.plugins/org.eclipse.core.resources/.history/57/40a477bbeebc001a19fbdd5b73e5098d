@@ -9,7 +9,7 @@
 #include <stdio.h>
 //implicit declaration of function 'printf'
 
-void function_add_numbers(int, int, int);
+void function_add_numbers(int, int, int)
 int main()
 {
 	// function calling her is happening
