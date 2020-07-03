@@ -1,32 +1,10 @@
-10:55:01 **** Rebuild of configuration Debug for project Function ****
+11:02:38 **** Incremental Build of configuration Debug for project Function ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o function.o "..\\function.c" 
-..\function.c: In function 'main':
-..\function.c:14:2: warning: implicit declaration of function 'function_add_numbers' [-Wimplicit-function-declaration]
-   14 |  function_add_numbers(20,30,40);
-      |  ^~~~~~~~~~~~~~~~~~~~
-..\function.c:19:2: warning: implicit declaration of function 'fucntin_add_numbers' [-Wimplicit-function-declaration]
-   19 |  fucntin_add_numbers(valB, valA, valC);
-      |  ^~~~~~~~~~~~~~~~~~~
-..\function.c: At top level:
-..\function.c:28:6: warning: conflicting types for 'function_add_numbers'
-   28 | void function_add_numbers(int a, int b, int c)
-      |      ^~~~~~~~~~~~~~~~~~~~
-..\function.c:14:2: note: previous implicit declaration of 'function_add_numbers' was here
-   14 |  function_add_numbers(20,30,40);
-      |  ^~~~~~~~~~~~~~~~~~~~
-..\function.c: In function 'function_add_numbers':
-..\function.c:33:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-   33 |  printf("Sum = %d\n", sum);
-      |  ^~~~~~
-..\function.c:33:2: warning: incompatible implicit declaration of built-in function 'printf'
-..\function.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-  +++ |+#include <stdio.h>
-    1 | /*
-gcc -o Function.exe function.o 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: function.o: in function `main':
-D:\UiPath\Microcontroller Embedded C\Main\My_Workspace\Host\Function\Debug/../function.c:19: undefined reference to `fucntin_add_numbers'
-collect2.exe: error: ld returned 1 exit status
+..\function.c:9:10: fatal error: studio.h: No such file or directory
+    9 | #include <studio.h>
+      |          ^~~~~~~~~~
+compilation terminated.
 
-10:55:07 Build Failed. 2 errors, 5 warnings. (took 5s.511ms)
+11:02:38 Build Failed. 1 errors, 0 warnings. (took 497ms)
 

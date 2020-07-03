@@ -6,7 +6,7 @@
  */
 
 
-#include <stdio.h>
+#include <studio.h>
 //implicit declaration of function 'printf'
 
 void function_add_numbers(int, int, int)
