@@ -11,12 +11,7 @@
 int main()
 {
 	// function calling her is happening
-	function_add_numbers(20,30,40);
-
-	int valA = 30;
-	int valB = 40, valC = 50;
-
-	fucntin_add_numbers(valB, valA, valC);
+	function_add_numbers();
 
 	return 0;
 
