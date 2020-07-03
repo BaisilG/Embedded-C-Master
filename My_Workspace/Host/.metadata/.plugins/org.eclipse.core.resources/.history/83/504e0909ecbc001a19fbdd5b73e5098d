@@ -15,9 +15,3 @@ int main()
 	return 0;
 
 }
-
-
-// creating a function
-
-void function_add_threee_numbers(int a, int b, int c)
-
