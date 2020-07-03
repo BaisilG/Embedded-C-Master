@@ -62,3 +62,36 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\UiPath\Microc
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-07-03 10:41:05.188
 !MESSAGE Indexed 'Function' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-07-03 11:04:43.071
+!MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.761080132: null; null
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2020-07-03 11:04:43.081
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: Failed to get disassembly from file: D:\UiPath\Microcontroller Embedded C\Main\My_Workspace\Host\Function\Debug\Function.exe
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:68)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:86)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:893)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1223)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-07-03 11:04:46.052
+!MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.761080132: null; null
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 4 0 2020-07-03 11:04:46.060
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.debug.launch.ToolchainPathResolver.resolveValue(ToolchainPathResolver.java:84)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.cdt.internal.core.cdtvariables.EclipseVariablesVariableSupplier$EclipseVarMacro.loadValue(EclipseVariablesVariableSupplier.java:106)
+	at org.eclipse.cdt.internal.core.cdtvariables.EclipseVariablesVariableSupplier$EclipseVarMacro.getStringValue(EclipseVariablesVariableSupplier.java:93)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.getLaunchEnvironment(LocalRunLaunchDelegate.java:191)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.runLocalApplication(LocalRunLaunchDelegate.java:110)
+	at org.eclipse.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:79)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:860)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:719)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
