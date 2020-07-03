@@ -1,20 +1,5 @@
-11:41:26 **** Incremental Build of configuration Debug for project math ****
+11:43:13 **** Incremental Build of configuration Debug for project math ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:14:22: warning: implicit declaration of function 'math_add' [-Wimplicit-function-declaration]
-   14 |  printf("Add: %d\n", math_add(9,3));
-      |                      ^~~~~~~~
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o math.o "..\\math.c" 
-..\math.c:12:1: error: expected identifier or '(' before '{' token
-   12 | {
-      | ^
-..\math.c:18:1: error: expected identifier or '(' before '{' token
-   18 | {
-      | ^
-..\math.c:26:1: error: expected identifier or '(' before '{' token
-   26 | {
-      | ^
-..\math.c:34:1: error: expected identifier or '(' before '{' token
-   34 | {
-      | ^
+gcc -o math.exe main.o math.o 
