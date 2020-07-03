@@ -3,3 +3,4 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o math.o "..\\math.c" 
 gcc -o math.exe main.o math.o 
+Info: Nothing to build for math
