@@ -11,6 +11,5 @@
 int main(void)
 {
 
-	prinrf("Add: %d\n", math_add(9,3));
 	return 0;
 }
