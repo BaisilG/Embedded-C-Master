@@ -6,5 +6,35 @@
  */
 
 
+int math_sum(int a, int b);
+int math_sub(int a, int b);
+long long int math_mul(int a, int b);
+float math_div(int a, int b);
+
+
+int math_sum(int a, int b);
+{
+
+}
+
+int math_sub(int a, int b);
+{
+
+}
+
+
+long long int math_mul(int a, int b);
+
+{
+
+
+}
+
+float math_div(int a, int b);
+{
+
+
+}
+
 
 
