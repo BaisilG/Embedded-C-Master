@@ -12,6 +12,5 @@ int main(void)
 {
 
 	printf("Add: %d\n", math_sum(9,3));
-	printf("sub")
 	return 0;
 }
