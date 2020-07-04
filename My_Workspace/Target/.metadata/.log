@@ -1610,3 +1610,9 @@ Reason: (2) ST-LINK DLL error.
 !SUBENTRY 2 com.st.stm32cube.ide.mcu.debug.stlink 4 0 2020-07-04 16:22:25.727
 !MESSAGE Error in initializing ST-LINK device.
 Reason: (2) ST-LINK DLL error.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-04 16:50:38.775
+!MESSAGE Indexed 'ADD-TEST' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-04 16:50:51.266
+!MESSAGE Indexed 'ADD-TEST' (35 sources, 42 headers) in 9.74 sec: 5,208 declarations; 39,694 references; 7 unresolved inclusions; 89 syntax errors; 4,364 unresolved names (8.9%)
