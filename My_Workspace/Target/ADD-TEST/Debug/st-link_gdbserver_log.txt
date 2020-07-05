@@ -25,17 +25,17 @@
 [0.000] initConfigParams():   ext-memory-loaders             false
 [0.000] initConfigParams():   extload                        ""
 [0.000] initConfigParams():  +stm32cubeprogrammer-path       "C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin"
-[0.001] initConfigParams():   temp-path                      ""
-[0.001] initConfigParams():   preserve-temps                 false
-[0.001] initConfigParams():   frequency                      -1
-[0.001] initConfigParams():   licenses                       false
+[0.000] initConfigParams():   temp-path                      ""
+[0.000] initConfigParams():   preserve-temps                 false
+[0.000] initConfigParams():   frequency                      -1
+[0.000] initConfigParams():   licenses                       false
 [0.001] initConfigParams():   ignore-rest                    false
 [0.001] initConfigParams():   version                        false
 [0.001] initConfigParams():   help                           false
 [0.001] initConfigParams():  Configuration flags end
 [0.001] init():  STMicroelectronics ST-LINK GDB server. Version 5.5.0
 Copyright (c) 2019, STMicroelectronics. All rights reserved.
-[0.017] Device_Initialise():  ST-Link enumeration failed
-[0.017] initServerContext():  
+[0.012] Device_Initialise():  ST-Link enumeration failed
+[0.012] initServerContext():  
 Error in initializing ST-LINK device.
-Reason: [0.017] initServerContext():  ST-LINK DLL error.
+Reason: [0.012] initServerContext():  ST-LINK DLL error.
