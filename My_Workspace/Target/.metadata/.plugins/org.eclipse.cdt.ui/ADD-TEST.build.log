@@ -1,4 +1,4 @@
-20:18:12 **** Incremental Build of configuration Debug for project ADD-TEST ****
+20:18:29 **** Incremental Build of configuration Debug for project ADD-TEST ****
 make -j4 all 
 arm-none-eabi-size   ADD-TEST.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   ADD-TEST.elf
 Finished building: default.size.stdout
  
 
-20:18:13 Build Finished. 0 errors, 0 warnings. (took 1s.713ms)
+20:18:31 Build Finished. 0 errors, 0 warnings. (took 1s.588ms)
 
