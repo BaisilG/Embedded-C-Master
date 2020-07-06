@@ -1,27 +1,11 @@
-12:20:58 **** Incremental Build of configuration Debug for project avg ****
+12:22:43 **** Incremental Build of configuration Debug for project avg ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 ..\main.c: In function 'main':
-..\main.c:14:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-   14 |  printf("Enter the first number: ");
-      |  ^~~~~~
-..\main.c:14:2: warning: incompatible implicit declaration of built-in function 'printf'
-..\main.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-  +++ |+#include <stdio.h>
-    1 | /*
-..\main.c:15:2: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
-   15 |  fflush(stdout);
-      |  ^~~~~~
-..\main.c:15:9: error: 'stdout' undeclared (first use in this function)
-   15 |  fflush(stdout);
-      |         ^~~~~~
-..\main.c:15:9: note: 'stdout' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
-..\main.c:15:9: note: each undeclared identifier is reported only once for each function it appears in
-..\main.c:16:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
-   16 |  scanf("%f", &num1);
-      |  ^~~~~
-..\main.c:16:2: warning: incompatible implicit declaration of built-in function 'scanf'
-..\main.c:16:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\main.c:24:18: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   24 |  average = (num1 + num2 + num3);
+      |             ~~~~~^~~~~~
+gcc -o avg.exe main.o 
 
-12:20:59 Build Failed. 1 errors, 5 warnings. (took 334ms)
+12:22:44 Build Finished. 0 errors, 1 warnings. (took 879ms)
 
