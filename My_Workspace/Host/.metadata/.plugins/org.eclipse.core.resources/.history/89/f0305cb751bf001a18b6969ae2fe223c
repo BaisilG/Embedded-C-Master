@@ -16,9 +16,6 @@ int main(void)
 
 	printf("Enter the second number:");
 		scanf("%f", &num2);
-
-	printf("Enter the third number:");
-			scanf("%f", &num3);
 }
 
 
