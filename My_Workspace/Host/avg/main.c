@@ -2,7 +2,11 @@
  * main.c
  *
  *  Created on: 06-Jul-2020
- *      Author: mglocadmin
+ *      Author: BaisilGeevarghese
  */
 
 
+int main(void)
+{
+	int num1, num2, num3;
+}
