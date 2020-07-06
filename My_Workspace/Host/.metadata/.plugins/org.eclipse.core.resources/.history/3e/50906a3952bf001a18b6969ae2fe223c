@@ -24,7 +24,7 @@ int main(void)
 	average = (num1+num2+num3);
 
 
-	printf("\n average is %f\n", average);
+	printf("\naverage is %f\n", average);
 
 }
 
