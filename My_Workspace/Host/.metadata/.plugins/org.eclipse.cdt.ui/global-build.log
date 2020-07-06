@@ -17,3 +17,11 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c"
    24 |  printf("\n average is %f\n", average);
       |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 gcc -o avg.exe main.o 
+13:09:45 **** Incremental Build of configuration Debug for project avg ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:13:8: warning: unused variable 'num1' [-Wunused-variable]
+   13 |  float num1, num2, num3;
+      |        ^~~~
+gcc -o avg.exe main.o 
