@@ -12,7 +12,6 @@ int main(void)
 	float average;
 
 	printf("Enter the first number: ");
-	fflush(stdout);
 	scanf("%f", &num1);
 
 
