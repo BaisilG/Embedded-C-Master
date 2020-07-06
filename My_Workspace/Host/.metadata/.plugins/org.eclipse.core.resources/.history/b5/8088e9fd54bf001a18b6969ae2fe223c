@@ -21,7 +21,6 @@ int main(void)
 		scanf("%f", &num2);
 
 	printf("\nEnter the third number:");
-	fflush(stdout);
 			scanf("%f", &num3);
 
 
