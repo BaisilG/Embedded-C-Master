@@ -24,7 +24,6 @@ int main(void)
 
 	printf("\n average is %f\n", average);
 	fflush(stdout);
-	getchar();
 
 }
 
