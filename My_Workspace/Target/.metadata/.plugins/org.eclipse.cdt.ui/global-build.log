@@ -138,3 +138,10 @@ arm-none-eabi-size   ADD-TEST.elf
   31136	    152	   3528	  34816	   8800	ADD-TEST.elf
 Finished building: default.size.stdout
  
+11:04:50 **** Incremental Build of configuration Debug for project ADD-TEST ****
+make -j4 all 
+arm-none-eabi-size   ADD-TEST.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31136	    152	   3528	  34816	   8800	ADD-TEST.elf
+Finished building: default.size.stdout
+ 
