@@ -5,8 +5,6 @@
  *      Author: BaisilGeevarghese
  */
 
-#include <stdio.h>
-
 
 int main(void)
 {
