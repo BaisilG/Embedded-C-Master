@@ -19,10 +19,6 @@ int main(void)
 
 	printf("Enter the third number:");
 			scanf("%f", &num3);
-
-
-	average = (num1+num2+num3);
-
 }
 
 
