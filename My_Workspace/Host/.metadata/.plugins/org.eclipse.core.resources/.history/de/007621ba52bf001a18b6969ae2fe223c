@@ -21,7 +21,7 @@ int main(void)
 			scanf("%f", &num3);
 
 
-	average = (num1 + num2 + num3);
+	average = (num1+num2+num3);
 
 
 	printf("\n average is %f\n", average);
