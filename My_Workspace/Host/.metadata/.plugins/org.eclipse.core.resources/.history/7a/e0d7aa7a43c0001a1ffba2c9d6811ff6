@@ -30,10 +30,6 @@ printf("\nEnter the second number:");
 	fflush(stdout);
 			scanf("%f", &num3);
 
-
-
-
-
 	average = (num2 + num3)/2 ;
 
 	printf("\n average is %f\n", average);
