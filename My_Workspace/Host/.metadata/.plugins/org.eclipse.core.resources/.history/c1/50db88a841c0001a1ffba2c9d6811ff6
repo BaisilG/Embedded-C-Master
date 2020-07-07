@@ -22,7 +22,6 @@ printf("\nEnter the second number:");
 
 
 
-
 	fflush(stdout);
 		scanf("%f", &num2);
 
