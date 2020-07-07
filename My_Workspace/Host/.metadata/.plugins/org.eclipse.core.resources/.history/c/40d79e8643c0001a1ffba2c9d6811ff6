@@ -15,8 +15,6 @@ int main(void)
 
 
 
-
-
 	printf("\nEnter the first number:");
 	fflush(stdout);
 	scanf("%f", &num1);
