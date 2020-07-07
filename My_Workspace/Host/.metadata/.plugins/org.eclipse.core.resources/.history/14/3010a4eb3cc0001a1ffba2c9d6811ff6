@@ -19,8 +19,6 @@ int main(void)
 	scanf("%f", &num1);
 
 printf("\nEnter the second number:");
-
-
 	fflush(stdout);
 		scanf("%f", &num2);
 

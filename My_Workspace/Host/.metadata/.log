@@ -349,3 +349,16 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-07-07 16:00:10.995
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-07-07 16:00:44.733
+!MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.156902166: null; null
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2020-07-07 16:00:44.756
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: Failed to get disassembly from file: D:\UiPath\Microcontroller Embedded C\Main\My_Workspace\Host\avg\Debug\avg.exe
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:68)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:86)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:893)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$14(StackAnalyzerView.java:1178)
+	at java.lang.Thread.run(Thread.java:748)
