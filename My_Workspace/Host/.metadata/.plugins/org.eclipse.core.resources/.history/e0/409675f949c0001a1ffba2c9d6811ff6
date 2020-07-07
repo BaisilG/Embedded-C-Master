@@ -9,22 +9,7 @@
 	// function calling her is happening
 	function_add_numbers(20,30,40);
 
-int valA = 30;
-	int valB = 40, valC = 50;
 
-	function_add_numbers(valB,valA,valC);
-
-	return 0;int valA = 30;
-	int valB = 40, valC = 50;
-
-	function_add_numbers(valB,valA,valC);
-
-	return 0;int valA = 30;
-	int valB = 40, valC = 50;
-
-	function_add_numbers(valB,valA,valC);
-
-	return 0;
 
 }
 
