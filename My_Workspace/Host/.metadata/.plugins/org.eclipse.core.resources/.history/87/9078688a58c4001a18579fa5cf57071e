@@ -1,3 +1,7 @@
+
+
+
+
 /*
  * function.c
  *
@@ -6,10 +10,18 @@
  */
 
 
+#include <stdio.h>
+//implicit declaration of function 'printf'
 
-
+void function_add_numbers(int, int, int);
 int main()
 {
+
+
+
+
+
+
 	// function calling her is happening
 	function_add_numbers(20,30,40);
 
@@ -20,6 +32,9 @@ int main()
 
 	return 0;
 
+
+
+
 }
 
 
@@ -28,6 +43,8 @@ int main()
 void function_add_numbers(int a, int b, int c)
 {
 	int sum;
+
+
 	sum = a+b+c;
 
 	printf("Sum = %d\n", sum);

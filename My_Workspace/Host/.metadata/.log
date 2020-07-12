@@ -487,3 +487,9 @@ java.lang.NullPointerException
 
 !ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-07-12 21:26:08.969
 !MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.355944451: null; null
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-07-12 21:28:40.675
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-07-12 21:28:40.690
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.core.DebugPlugin$EventDispatchJob
