@@ -13,9 +13,6 @@
 
 
 
-
-
-
 #include <stdio.h>
 //implicit declaration of function 'printf'
 
