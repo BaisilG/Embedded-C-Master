@@ -459,3 +459,25 @@ java.lang.NullPointerException
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-07-12 21:25:03.339
+!MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.156902166: null; null
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 4 0 2020-07-12 21:25:03.357
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.debug.launch.ToolchainPathResolver.resolveValue(ToolchainPathResolver.java:84)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.cdt.internal.core.cdtvariables.EclipseVariablesVariableSupplier$EclipseVarMacro.loadValue(EclipseVariablesVariableSupplier.java:106)
+	at org.eclipse.cdt.internal.core.cdtvariables.EclipseVariablesVariableSupplier$EclipseVarMacro.getStringValue(EclipseVariablesVariableSupplier.java:93)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getLaunchEnvironment(GdbLaunch.java:591)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getGDBVersion(GdbLaunch.java:509)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:147)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:106)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:94)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:860)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:719)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
