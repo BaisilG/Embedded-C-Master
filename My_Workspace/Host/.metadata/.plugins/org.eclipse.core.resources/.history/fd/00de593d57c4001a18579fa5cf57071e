@@ -37,7 +37,6 @@ void function_add_numbers(int a, int b, int c)
 
 
 
-
 	sum = a+b+c;
 
 	printf("Sum = %d\n", sum);
