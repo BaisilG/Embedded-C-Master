@@ -484,3 +484,6 @@ java.lang.NullPointerException
 
 !ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-07-12 21:25:36.512
 !MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.156902166: null; null
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 1 1 2020-07-12 21:26:08.969
+!MESSAGE No type or version options in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.355944451: null; null
