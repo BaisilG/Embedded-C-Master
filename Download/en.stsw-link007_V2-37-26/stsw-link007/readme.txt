@@ -21,3 +21,6 @@ STLink firmware upgrade applications
    On Linux, users must be granted with rights for accessing the ST-Link USB devices. To do
    that, it might be necessary to add rules into /etc/udev/rules.d. This can be achieved by
    running one of the package provided into the subdirectory StlinkRulesFilesForLinux.
+
+
+   small changes in the main menu
