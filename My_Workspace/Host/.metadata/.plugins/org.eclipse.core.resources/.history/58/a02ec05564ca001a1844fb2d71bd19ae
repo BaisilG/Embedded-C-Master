@@ -23,6 +23,5 @@
 
 int main(void)
 {
-	__asm volatile ("LDR R0,[R1]");
 	for(;;);
 }
