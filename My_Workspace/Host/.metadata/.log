@@ -502,3 +502,9 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-07-20 13:56:26.327
 !MESSAGE Log4j initialized with config file D:\UiPath\Microcontroller Embedded C\Main\My_Workspace\Host\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-07-20 13:57:50.942
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-07-20 13:57:53.366
+!MESSAGE Started RMI Server, listening on port 41337
